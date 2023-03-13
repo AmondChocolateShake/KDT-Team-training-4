@@ -1,6 +1,6 @@
-let hello=require("./file2")
+require("./file2")
 
-hello();
+
 
 
 
