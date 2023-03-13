@@ -7,7 +7,7 @@ const formTag = `
 `;
 function greet(fromSubmitString) {
 return `<h1>${fromSubmitString}</h1>`;
-}
+} 
 function firstPage(data) {
 return `
 <!DOCTYPE html>
