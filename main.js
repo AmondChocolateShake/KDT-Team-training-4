@@ -46,7 +46,7 @@ if(request.method === 'GET' && request.url.startsWith('/login'))
 {
 console.log(request.url);
 const name = request.url.split('=')[1];
-//split('=') 
+//split('=') =기준으로 [0],[1]
 console.log(name);
 response.writeHead(200, {'Content-Type': 'text/html'});
 let page = firstPage(greet(name))
