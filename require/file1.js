@@ -1,6 +1,7 @@
-require("./file2")
+let a=require("./file2")
 
 
+console.log(a);
 
 
 
